@@ -6,4 +6,6 @@ export const User = [
         email: 'test@user.com',
         password: 'shoyouwu'
     }
-]
+];
+
+export type UserType = typeof User[number];
